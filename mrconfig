@@ -1,5 +1,5 @@
 [repos/check_mk]
-checkout = git clone http://git.mathias-kettner.de/check_mk.git check_mk && git remote add ypid-bot git@github.com:ypid-bot/check_mk.git
+checkout = git clone https://git.mathias-kettner.de/check_mk.git/ check_mk && git remote add ypid-bot git@github.com:ypid-bot/check_mk.git
 mirror = git pull --ff-only && git-track-all-branches && git push ypid-bot --mirror
 
 [repos/doublecmd]
