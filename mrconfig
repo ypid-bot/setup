@@ -1,6 +1,6 @@
 [repos/check_mk]
 checkout = git clone https://git.mathias-kettner.de/check_mk.git/ check_mk && git remote add ypid-bot git@github.com:ypid-bot/check_mk.git
-mirror = git pull --ff-only && git-track-all-branches && git push ypid-bot --mirror
+mirror = git pull --ff-only origin master && git-track-all-branches && git push ypid-bot --mirror
 
 [repos/doublecmd]
 checkout = git svn clone svn://svn.code.sf.net/p/doublecmd/code/trunk doublecmd && git remote add ypid-bot git@github.com:ypid-bot/doublecmd.git
